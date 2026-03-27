@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+}
+
+/* Fundo com gradiente azul */
+.background {
+    height: 50vh;
+    background: linear-gradient(to bottom, #6a8be8, #2f5bd3);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Card de login */
+.login-card {
+    background: #e6e6e6;
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: -80px;
+    box-shadow: 0 10px 0 #2f5bd3, 0 15px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Título */
+.login-card h2 {
+    margin-bottom: 20px;
+    color: #2f5bd3;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* Labels */
+form label {
+    display: block;
+    text-align: left;
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #dcdcdc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Botão */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #2f5bd3;
+    color: white;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background: #244bb0;
+}
+
+/* Links inferiores */
+.links {
+    margin-top: 15px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+}
+
+.links a {
+    color: #2f5bd3;
+    text-decoration: none;
+}
